@@ -1,0 +1,61 @@
+.mainNav
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+}
+.mainNav .logoIcon
+{
+    width: 40px;
+    height: 50px;
+    background-color: blue;
+    position:absolute;
+    left: 20px;
+    cursor: pointer;
+    color: white;
+}
+.mainNav .left
+{
+    position: absolute;
+    left: 70px;
+}
+.mainNav .right ul
+{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    position: absolute;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.mainNav .right ul li a
+{
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 14px;
+}
+.mainNav .right ul li a :visited
+{
+    color: brown;
+}
+.mainNav .right ul li a:hover
+{
+    border-bottom: 3px solid rgba(0, 0, 255, 0.637);
+    color: aqua;
+}
+.mainNav .left p
+{
+    font-size: 23px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 800;
+    background-image: linear-gradient(to top right,rgb(238, 139, 10),rgb(82, 14, 207));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

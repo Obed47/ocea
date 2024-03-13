@@ -1,0 +1,60 @@
+.mainHomepage .links
+{
+    display: flex;
+    text-align: center;
+}
+.mainHomepage .links button
+{
+    border: none;
+    margin: auto;
+    color: white;
+    background-color:transparent;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 100ms;
+}
+.mainHomepage .center
+{
+    height: 520px;
+    background-image: url(pexels-amir-seilsepour-3912572.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mainHomepage .center h1
+{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 30px;
+    padding:auto;
+    color: rgba(255, 255, 255, 0.781);
+    margin-top: 30px;
+
+}
+.mainHomepage .links button:hover
+{
+    border-bottom: 3px solid rgba(127, 255, 212, 0.548);
+    cursor: pointer;
+    color: aqua;
+}
+.mainHomepage .center p
+{
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    border: 2px solid aquamarine;
+    backdrop-filter: blur(.1rem);
+    background-color: rgba(75, 75, 75, 0.514);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 30px;
+}
+.mainHomepage .center hr
+{
+    border-color: transparent;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
