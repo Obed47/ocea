@@ -28,6 +28,7 @@ function App()
       {page==="CEO" && <Ceo/>}
       {page==="images" && <Images/>}
       </div>
+      <div></div>
       <div className="ser">
         <Services/>
       </div>
