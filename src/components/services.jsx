@@ -19,18 +19,18 @@ function SlideShow(Img)
 
 
     let images=[
-        "image1",
-        "image2",
-        "image3",
-        "image4"
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
     ]
 
     let nextImage=()=>
     {
-        if(image<=images.length())
+        if(image<images.length-1)
         {
             SetImange(image+=1);
-            console.log(images[image])
+
         }
         else
         {
@@ -40,22 +40,28 @@ function SlideShow(Img)
     }
     let PreviousImage=()=>
     {
-        if(image>=0)
+        if(image>0)
         {
             SetImange(image-=1);
+
         }
         else
         {
-            SetImange(images.length())
+            SetImange(images.length-1)
         }
     }
 
-  
+    console.log(images[image])
     return(
     <div className="mainSlide">
-        <button onClick={()=>PreviousImage}>Prev</button>
-        <div className="image" style={{backgroundImage:`url(${images[image]})`,backgroundPosition:'center',backgroundSize:'cover'}}> </div>
-        <button onClick={()=>nextImage}>Next</button>
+        <button onClick={()=>PreviousImage()}>Prev</button>
+        <div className="image" style={
+            {backgroundImage:`url(${images[image]})`,
+            backgroundPosition:'center',
+            //trying to make this element contain a background image from the array
+            //this should alter due to the index determined by the buttons
+            backgroundSize:'cover'}}></div>
+        <button onClick={()=>nextImage()}>Next</button>
     </div>
     )
 }
@@ -63,10 +69,10 @@ function SlideShow(Img)
 function Services()
 {
     let images=[
-        "image1",
-        "image2",
-        "image3",
-        "image4"
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
     ]
     return (
         <div className="mainServices">

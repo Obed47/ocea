@@ -1,3 +1,4 @@
+
 .serviceBox
 {
     width: 500px;
@@ -41,7 +42,6 @@
 }
 .mainServices .ser
 {
-    
     display: flex;
     margin: auto;
     margin-top: 20px;
