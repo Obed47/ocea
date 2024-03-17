@@ -58,3 +58,17 @@
     margin-top: 20px;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
+.mainHomepage .links .booking
+{
+    background-color: aqua;
+    width: 100px;
+    color: rgb(34, 34, 34);
+    height: 30px;
+    border-radius: 3px;
+}
+.mainHomepage .links .booking:hover
+{
+    color: #fff;
+    border: none;
+    background-color: rgb(1, 145, 145);
+}

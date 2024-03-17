@@ -14,7 +14,7 @@ function Homepage({changePage})
             <div className="links">
             <button onClick={()=>Handleclick("Catalogue")}>Catalogue</button>
             <button onClick={()=>Handleclick("Chat")}>Chat</button>
-            <button onClick={()=>Handleclick("bookService")}>Book Service</button>
+            <button className='booking' onClick={()=>Handleclick("bookService")}>Book Service</button>
             <button onClick={()=>Handleclick("images")}>Images</button>
             <button onClick={()=>Handleclick("CEO")}>CEO</button>
             <button onClick={()=>Handleclick("faq")}>FAQ</button>

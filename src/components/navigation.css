@@ -30,6 +30,7 @@
     color: white;
     text-decoration: none;
     margin-right: 30px;
+    cursor: pointer;
 }
 .mainNav .right ul li a
 {

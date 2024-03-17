@@ -9,7 +9,7 @@ function Nav(title,{Change})
     return(
         <div className="mainNav">
             <div onClick={()=>SetToHome("Homepage")} className="logoIcon">
-                <p  >logo here</p>
+                <p> logo here </p>
             </div>
             <div className="left">
                 <p onClick={()=>SetToHome("Homepage")}>{title.title}</p>

@@ -1,4 +1,4 @@
-
+import './ceo.css'
 
 function Ceo()
 {

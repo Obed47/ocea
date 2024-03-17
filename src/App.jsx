@@ -8,6 +8,7 @@ import Ceo from './components/Ceo';
 import Catalogue from './components/Catalogue';
 import BookService from './components/bookService';
 import Images from './components/images';
+import Footer from './components/footer';
 import { Services,ServiceBox } from './components/services';
 function App()
 {
@@ -20,7 +21,9 @@ function App()
     <div className="mainApp">
       <div className="page1">
       <Nav title="Oceas Blush" Change={ChangePage}/>
-      {page==="Homepage" && <Homepage changePage={ChangePage}/>}
+      {page==="Homepage" &&  <Homepage changePage={ChangePage}/> 
+
+      }
       {page==="faq" && <Faq/>}
       {page==="Catalogue" && <Catalogue/>}
       {page==="Chat" && <Chat/>}
@@ -30,8 +33,9 @@ function App()
       </div>
       <div></div>
       <div className="ser">
-        <Services/>
+       <Services/>
       </div>
+      <Footer/>
     </div>
   );
 }
