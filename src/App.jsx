@@ -20,14 +20,14 @@ function App()
   return (
     <div className="mainApp">
       <div className="page1">
-      <Nav title="Oceas Blush" Change={ChangePage}/>
+      <Nav Change={ChangePage}/>
       {page==="Homepage" &&  <Homepage changePage={ChangePage}/> 
 
       }
       {page==="faq" && <Faq/>}
       {page==="Catalogue" && <Catalogue/>}
       {page==="Chat" && <Chat/>}
-      {page==="bookService" && <BookService/>}
+      {page==="bookService" && <BookService S={ChangePage} className='Booking'/>}
       {page==="CEO" && <Ceo/>}
       {page==="images" && <Images/>}
       </div>

@@ -1,6 +1,6 @@
 import './navigation.css'
 
-function Nav(title,{Change})
+function Nav({Change})
 {
     const SetToHome=(c)=>
     {
@@ -12,13 +12,13 @@ function Nav(title,{Change})
                 <p> logo here </p>
             </div>
             <div className="left">
-                <p onClick={()=>SetToHome("Homepage")}>{title.title}</p>
+                <p onClick={()=>SetToHome("Homepage")}>Ocea's Blush</p>
             </div>
             <div className="right">
                 <ul>
                     <li onClick={()=>SetToHome("Homepage")}>Home</li>
-                    <li> <a href="/">About</a></li>
-                    <li> <a href="/">Contact</a></li>
+                    <li onClick={()=>SetToHome("About")}>About</li>
+                    <li onClick={()=>SetToHome("Contact")}> Contact</li>
                 </ul>
             </div>
         </div>

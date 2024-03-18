@@ -32,7 +32,7 @@
     margin-right: 30px;
     cursor: pointer;
 }
-.mainNav .right ul li a
+.mainNav .right ul li 
 {
     margin-left: 30px;
     text-decoration: none;
@@ -40,11 +40,11 @@
     color: rgba(255, 255, 255, 0.795);
     font-size: 14px;
 }
-.mainNav .right ul li a :visited
+.mainNav .right ul li  :visited
 {
     color: brown;
 }
-.mainNav .right ul li a:hover
+.mainNav .right ul li:hover
 {
     border-bottom: 3px solid rgba(0, 0, 255, 0.637);
     color: aqua;
@@ -59,4 +59,5 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    cursor: pointer;
 }
