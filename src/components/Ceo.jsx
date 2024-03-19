@@ -4,7 +4,20 @@ function Ceo()
 {
     return(
         <div className="mainCeo">
-            <p>About ceo here Lorem <br />  <br />  <br /> ipsum dolor sit amet consectetur adipisicing elit. <br />Eaque autem repudiandae asperiores tempore nemo, placeat, maxime perferendis eligendi at similique dolore id sit officiis,<br /> corrupti rerum natus accusantium dolores voluptas?</p>
+            <div className="ceoCard">
+                <img src="" alt="" />
+                <div className="texts">
+                    <h3>About Ocea</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Beatae earum iusto perferendis amet quasi nemo numquam minus, 
+                     aliquam eius ex! Magni, modi laboriosam vel a facere 
+                     voluptatem recusandae totam repellendus.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro quisquam laboriosam, non quibusdam nemo nisi
+                       a officia debitis! Commodi ipsum enim ut, aliquam 
+                       beatae nemo iste sed placeat ab molestias.</p>
+                     </div>
+            </div>
         </div>
     )
 }

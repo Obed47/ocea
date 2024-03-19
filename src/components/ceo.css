@@ -1,8 +1,27 @@
 .mainCeo
 {
+    margin-top: 20px;
     height: auto;
     margin: auto;
     text-align: center;
     justify-content: center;
     text-justify: center;  
+}
+.mainCeo .ceoCard
+{
+    margin-top: 20px;
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    font-family: sans-serif;
+}
+.mainCeo .ceoCard .texts h3
+{
+    color: rgb(255, 174, 0);
+    font-size: 30px;
+}
+
+.mainCeo .ceoCard .texts p
+{
+    margin-top: 30px;
 }

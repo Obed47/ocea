@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './services.css'
 import nails from './nails.jpg'
-import image1 from './image1.jpg'
-import image2 from './image2.jpg'
-import image3 from './image3.jpg'
-import image4 from './image4.jpg'
+import image1 from './gallery2.jpg'
+import image2 from './gallery3.jpg'
+import image3 from './gallery4.jpg'
+import image4 from './galllery1.jpg'
 
 
 
