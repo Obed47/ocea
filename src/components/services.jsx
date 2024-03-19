@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './services.css'
+import nails from './nails.jpg'
 import image1 from './image1.jpg'
 import image2 from './image2.jpg'
 import image3 from './image3.jpg'
@@ -13,10 +14,13 @@ import image4 from './image4.jpg'
     return(
     <div className="serviceBox">
         <h2>{props}</h2>
+        <div className="textAndImg">
+            <img src={nails} alt="failed" />
         <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
              Aperiam similique necessitatibus fuga modi, atque, excepturi,
               at quibusdam doloremque aut asperiores debitis rem? Molestiae
             dolores at corporis beatae delectus saepe a!</h4>
+            </div>
     </div>
     );
 }
@@ -84,7 +88,6 @@ function Services()
             <div className="ser">
             <ServiceBox className="makeup" props={"MakeUp"}/>
             <ServiceBox props={"Nails"}/>
-            <ServiceBox props={"Cleaning"}/>
             </div>
             <div className="slideShow">
                 <SlideShow Img={images}/>

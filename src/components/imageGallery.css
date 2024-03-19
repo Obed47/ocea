@@ -1,0 +1,20 @@
+.mainGallery
+{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.mainGallery img
+{
+    height: 400px;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.mainGallery img:hover
+{
+    scale: 1.05;
+}

@@ -10,6 +10,7 @@ import BookService from './components/bookService';
 import Images from './components/images';
 import Footer from './components/footer';
 import { Services,ServiceBox } from './components/services';
+import ImageGallery from './components/ImageGalllery';
 function App()
 {
   const[page,setPage]=useState("Homepage");
@@ -33,6 +34,7 @@ function App()
       </div>
       <div></div>
       <div className="ser">
+        <ImageGallery/>
        <Services/>
       </div>
       <Footer/>

@@ -58,7 +58,7 @@
 {
     display: flex;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: space-between;
     width: 1100px;
     transition: 300ms;
@@ -69,4 +69,14 @@
 {
     color:rgb(141, 141, 141);
     background-color: rgb(44, 44, 44);
+}
+.serviceBox .textAndImg img
+{
+    height: 136px;
+    width: 120px;
+    border-radius: 10px;
+}
+.serviceBox .textAndImg
+{
+    display: flex;
 }
