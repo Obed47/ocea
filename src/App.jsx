@@ -1,5 +1,7 @@
 import './App.css'
 import { useState } from 'react';
+import { ReactDOM } from 'react';
+import { Router } from 'react-router';
 import Homepage from './components/Homepage';
 import Nav from './components/navigation';
 import Faq from './components/faq';
