@@ -16,7 +16,13 @@ function BookService({S})
             <input type="text" placeholder='Names:'/>
             <input type="text" placeholder='Email:'/>
             <input type="text" placeholder='Contact:'/>
-            <input type="text" placeholder='Service needed:'/>
+            <select>
+                <option value="Hair dressing">Hair Dressing</option>
+                <option value="Nails">Nails</option>
+                <option value="Makeup">Makeup</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Feet cleaning">Feet Cleaning</option>
+            </select>
             <input type="text" placeholder='Date:'/>
             <input type="text" placeholder='Availability:'/>
                 <input className='Description' type="text" placeholder='Brief Description of expectations here' />
@@ -25,4 +31,4 @@ function BookService({S})
         </div>
     )
 }
-export default BookService
+export default BookService;

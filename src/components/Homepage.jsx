@@ -8,7 +8,6 @@ function Homepage({changePage})
      }
     return(
         <div className="mainHomepage">
-            
             <div className="center">
             <div className="links">
             <button onClick={()=>Handleclick("Catalogue")}>Catalogue</button>

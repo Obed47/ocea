@@ -9,14 +9,16 @@ import image4 from './galllery1.jpg'
 
 
 
- function ServiceBox({props})
+ function ServiceBox({props,pic})
 {
     return(
     <div className="serviceBox">
-        <h2>{props}</h2>
+        
         <div className="textAndImg">
-            <img src={nails} alt="failed" />
-        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <img src={pic} alt="failed" />
+        <h4>
+        <h2>{props}</h2>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
              Aperiam similique necessitatibus fuga modi, atque, excepturi,
               at quibusdam doloremque aut asperiores debitis rem? Molestiae
             dolores at corporis beatae delectus saepe a!</h4>
@@ -86,8 +88,8 @@ function Services()
     return (
         <div className="mainServices">
             <div className="ser">
-            <ServiceBox className="makeup" props={"MakeUp"}/>
-            <ServiceBox props={"Nails"}/>
+            <ServiceBox className="makeup" props={"MakeUp"} pic={image3}/>
+            <ServiceBox props={"Nails"} pic={nails}/>
             </div>
             <div className="slideShow">
                 <SlideShow Img={images}/>

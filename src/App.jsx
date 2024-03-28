@@ -11,6 +11,9 @@ import Images from './components/images';
 import Footer from './components/footer';
 import { Services,ServiceBox } from './components/services';
 import ImageGallery from './components/ImageGalllery';
+//implement routung here in the homepage.
+//check notes in book
+
 function App()
 {
   const[page,setPage]=useState("Homepage");
@@ -22,9 +25,7 @@ function App()
     <div className="mainApp">
       <div className="page1">
       <Nav Change={ChangePage}/>
-      {page==="Homepage" &&  <Homepage changePage={ChangePage}/> 
-
-      }
+      {page==="Homepage" &&  <Homepage className="home" changePage={ChangePage}/> }
       {page==="faq" && <Faq/>}
       {page==="Catalogue" && <Catalogue/>}
       {page==="Chat" && <Chat/>}

@@ -24,12 +24,13 @@
 }
 .mainHomepage .center h1
 {
+    animation: AimateText 400ms linear;
     font-size: 50px;
     text-align: left;
     margin-left: 30px;
-    padding:auto;
     color: rgba(255, 255, 255, 0.781);
     margin-top: 30px;
+    padding:auto;
 
 }
 .mainHomepage .links button:hover
@@ -60,15 +61,42 @@
 }
 .mainHomepage .links .booking
 {
-    background-color: aqua;
+    animation: AnimateButton 3s infinite;
     width: 100px;
     color: rgb(34, 34, 34);
     height: 30px;
     border-radius: 3px;
+    background-color: aqua;
 }
 .mainHomepage .links .booking:hover
 {
     color: #fff;
     border: none;
     background-color: rgb(1, 145, 145);
+}
+
+
+@keyframes AimateText{
+    from{
+        color: transparent;
+        margin-top: 0px;
+      
+    }
+    to
+    {
+        color: rgba(255, 255, 255, 0.781);
+        margin-top: 30px;
+    }
+}
+@keyframes AnimateButton{
+    from
+    {
+        background-color: transparent;
+        color: white;
+    }
+    to 
+    {
+        background-color: aqua;
+        border: 2px solid yellow;
+    }
 }

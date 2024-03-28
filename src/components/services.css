@@ -16,7 +16,7 @@
     color: rgb(117, 117, 117);
     font-weight: bolder;
     font-family: sans-serif;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 30px;
 }
 .serviceBox h4
@@ -72,8 +72,8 @@
 }
 .serviceBox .textAndImg img
 {
-    height: 136px;
-    width: 120px;
+    height: 200px;
+    width: 130px;
     border-radius: 10px;
 }
 .serviceBox .textAndImg
