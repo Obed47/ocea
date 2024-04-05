@@ -3,24 +3,81 @@
     height: 250px;
     width: 100%;
     background-color: rgb(54, 54, 54);
-    color: #696969;
+    color: white;
+    display: flex;
+    border-radius: 0 100px 0 0;
 
 }
-.MainFooter .Info
+.MainFooter .subscription
 {
     display: flex;
-    margin: auto 50px;
-    justify-content: space-between;
-    padding-top: 50px;
-    font-family: sans-serif;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+}
+.MainFooter .subscription input
+{
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.MainFooter .desk
+{
+    width: 25%;
+    margin: auto;
+}
+.MainFooter .subscription button
+{
+    width: 40%;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
 
 }
-.MainFooter .Info h3
+.MainFooter .subscription button:hover
 {
-    font-size: 18px;
-}
-.MainFooter .Info p
-{
-    font-size: 16px;
+    background-color: rgb(133, 133, 133);
+    color: rgba(255, 255, 255, 0.767);
 }
 
+.MainFooter .icons a
+{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    transition: 300ms;
+    outline: none;
+}
+.MainFooter .icons
+{
+    text-align: center;
+}
+.MainFooter .subscription h3
+{
+    margin: auto;
+    color: white;
+    font-weight: 700;
+
+}
+.MainFooter .icons a:hover{
+    color: yellow;
+    outline: none;
+    border-bottom: 2px solid yellow;
+    font-size: 27px;
+}
+.MainFooter .icons
+{
+    margin: auto;
+    text-align: center;
+}

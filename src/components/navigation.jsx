@@ -9,7 +9,7 @@ function Nav({Change})
     return(
         <div className="mainNav">
             <div onClick={()=>SetToHome("Homepage")} className="logoIcon">
-                <p> logo here </p>
+               <a className='fa fa-female' href="#"></a>
             </div>
             <div className="left">
                 <p onClick={()=>SetToHome("Homepage")}>Ocea's Blush</p>

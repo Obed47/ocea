@@ -1,0 +1,39 @@
+.mainComments
+{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    transition: 2s;
+}
+.mainComments .comments
+{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    transition: 2s;
+}
+
+.mainComments h2
+{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.mainComments button
+{
+    width: 150px;
+    height: 35px;
+    color: #575757;
+    font-weight: 600;
+    border: 2px solid rgb(92, 92, 92);
+    outline: none;
+    background-color: rgba(0, 255, 255, 0.767);
+    margin: 10px;
+    border-radius: 10px;
+}
+.mainComments button:hover
+{
+    background-color: rgb(14, 192, 192);
+    color: white;
+}

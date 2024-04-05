@@ -1,7 +1,5 @@
 import './App.css'
 import { useState } from 'react';
-import { ReactDOM } from 'react';
-import { Router } from 'react-router';
 import Homepage from './components/Homepage';
 import Nav from './components/navigation';
 import Faq from './components/faq';
@@ -11,8 +9,12 @@ import Catalogue from './components/Catalogue';
 import BookService from './components/bookService';
 import Images from './components/images';
 import Footer from './components/footer';
-import { Services,ServiceBox } from './components/services';
+import { Services} from './components/services';
 import ImageGallery from './components/ImageGalllery';
+import {Routes,Route} from 'react-router';
+import { Link } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
+import MainComments from './components/comments';
 //implement routung here in the homepage.
 //check notes in book
 
@@ -35,13 +37,15 @@ function App()
       {page==="CEO" && <Ceo/>}
       {page==="images" && <Images/>}
       </div>
-      <div></div>
+     
       <div className="ser">
         <ImageGallery/>
        <Services/>
       </div>
-      <Footer/>
+          <MainComments/>
+        <Footer/>
+    
     </div>
   );
 }
-export default App
+export default App;

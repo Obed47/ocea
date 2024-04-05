@@ -16,7 +16,7 @@ function BookService({S})
             <input type="text" placeholder='Names:'/>
             <input type="text" placeholder='Email:'/>
             <input type="text" placeholder='Contact:'/>
-            <select>
+            <select >
                 <option value="Hair dressing">Hair Dressing</option>
                 <option value="Nails">Nails</option>
                 <option value="Makeup">Makeup</option>

@@ -1,7 +1,7 @@
 .mainBook
 {
     width: 400px;
-    height: 560px;
+    height: 670px;
     margin: auto;
     margin-top: 50px;
     background-color: aquamarine;
@@ -28,6 +28,7 @@
 .mainBook .inputfields input{
     height: 40px;
     width: 80%;
+    padding: 10px;
     margin: auto;
     outline: none;
     border: none;
